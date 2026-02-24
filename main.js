@@ -20,18 +20,18 @@ function adicionarProduto(){
 
         spanCodigo.textContent = codigo.value
         div.appendChild(spanCodigo)
-        spanCodigo.className = "bg-blue-300 px-8 py-2 rounded w-40 text-center  "
+        spanCodigo.className = "bg-blue-300 px-8 py-2 rounded  text-center  "
         codigo.value = ""
 
         spanProduto.textContent = produto.value
         div.appendChild(spanProduto)
-        spanProduto.className = "bg-blue-300 px-8 py-2 rounded w-40 text-center"
+        spanProduto.className = "bg-blue-300 px-8 py-2 rounded text-center"
         produto.value = ""
 
         
         spanQtd.textContent = qtd.value
         div.appendChild(spanQtd)
-        spanQtd.className = "bg-blue-300 px-8 py-2 rounded w-40 text-center"
+        spanQtd.className = "bg-blue-300 px-8 py-2 rounded  text-center"
         qtd.value = ""
 
         lista.appendChild(div)
